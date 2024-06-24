@@ -1,9 +1,11 @@
-#!/usr/bin/env groovy
 pipeline {
+    agent any
 
     stages {
-        stage("Prepare") {
+        stage ('Print') {
             steps {
-                bitbucketStatusNotify buildState: "INPROGRESS"
+                echo "Hello Devops Engineers"
             }
         }
+    }
+}
