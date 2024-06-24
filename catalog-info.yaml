@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "rishabh"
+  links:
+    - url: 'http://rishabh.cloud-automation-idp.net'
+      title: DEV-URL
+      icon: dashboard
+  annotations:
+    github.com/project-slug: IDP-DEV-ORG/rishabh
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
